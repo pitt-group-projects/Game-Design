@@ -1,0 +1,8 @@
+# Default ignored files
+.idea/
+/target/
+/workspace.xml
+.env
+
+# Added by cargo
+/target
