@@ -17,7 +17,7 @@ jobs:
           PR_BODY: ${{ github.event.pull_request.body }}
         run: |
           # Replace with your actual Discord role ID
-          ROLE_ID="REPLACE_WITH_YOUR_ROLE_ID"
+          ROLE_ID=${{ secrets.DISCORD_ROLE_ID }}
           
           # Truncate PR body if too long
           TRUNCATED_BODY=$(echo "$PR_BODY" | head -c 500)
