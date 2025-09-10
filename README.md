@@ -1,6 +1,6 @@
 # Rust Racers
 
-by Six Seven Studios
+by Six Seven Studios. test
 
 ## Team Members
 
