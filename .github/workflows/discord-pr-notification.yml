@@ -15,6 +15,7 @@ jobs:
           PR_URL: ${{ github.event.pull_request.html_url }}
           PR_AUTHOR: ${{ github.event.pull_request.user.login }}
           PR_BODY: ${{ github.event.pull_request.body }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
           # Replace with your actual Discord role ID
           ROLE_ID=${{ secrets.DISCORD_ROLE_ID }}
@@ -29,9 +30,9 @@ jobs:
           curl -H "Content-Type: application/json" \
                -X POST \
                -d "{
-                 \"content\": \"<@&${ROLE_ID}> New Pull Request!\",
+                 \"content\": \"<@&${ROLE_ID}>\",
                  \"embeds\": [{
-                   \"title\": \"$PR_TITLE\",
+                   \"title\": \"$PR_TITLE #$PR_NUMBER\",
                    \"url\": \"$PR_URL\",
                    \"color\": 5814783,
                    \"fields\": [
