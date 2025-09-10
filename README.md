@@ -5,16 +5,16 @@ by Six Seven Studios
 ## Team Members
 
 * Advanced Topic Subteam 1: Multiplayer Networking
-  * Kameren Jouhal
-  * Jonathan Coulter
-  * David Shi
-  * Jeremy Luu
+  * STUDENT1_USERNAME_HERE: Kameren Jouhal
+  * STUDENT1_USERNAME_HERE: Jonathan Coulter
+  * STUDENT1_USERNAME_HERE: David Shi
+  * jdl137: Jeremy Luu
 
 * Advanced Topic Subteam 2: AI Racer
-  * Carson Gollinger
-  * Greyson Barsotti
-  * Daniel Cheng
-  * Ethan Defilippi
+  * STUDENT1_USERNAME_HERE: Carson Gollinger
+  * STUDENT1_USERNAME_HERE: Greyson Barsotti
+  * STUDENT1_USERNAME_HERE: Daniel Cheng
+  * STUDENT1_USERNAME_HERE: Ethan Defilippi
 
 ## Game Description
 
