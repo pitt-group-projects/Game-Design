@@ -40,12 +40,24 @@ Rust Racers is a top down, 2d racing game. Players can queue up in a lobby to st
 * Camera tracking
 * One track and one car model
 
-## Final Goals **TODO**
+## Final Goals
 
-* XX%: GOAL1HERE
-* XX%: GOAL2HERE
-* XX%: GOAL3HERE
-...
+* 50%: Networked Multiplayer and AI CPUs
+  * A homescreen with create and join room options
+  * Players can choose from multiple cars
+  * Players can race alongside a max of 8 players via a networked connection
+  * Empty spots within a lobby are filled by AI CPUs
+  * Players can also choose to race alone alongside AI CPUs (singleplayer)
+  * AI CPUs have dynamic racing behavior that reacts to their surroundings.
+    * Aggressive Driving Lines
+    * Reversing
+    * Attacking Players / Other CPUs
+
+* 15%: Two Maps
+  * Players can choose between two maps to race on.
+* 15%: Drifting AND Simple and Complex control styles
+  * Players can drift their cars around turns for a small boost
+  * Certain driving features are disabled when the player selects simple controls.
 
 ## Stretch Goals **TODO**
 
